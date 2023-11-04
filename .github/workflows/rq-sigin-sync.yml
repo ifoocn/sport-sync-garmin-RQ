@@ -3,7 +3,7 @@ name: rq-sigin-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* 1,13 * * *'
+    - cron: '* 1,13,20 * * *'
 
 env:
   GITHUB_NAME: ifoocn
